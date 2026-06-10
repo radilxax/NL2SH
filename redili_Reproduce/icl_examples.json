@@ -1,0 +1,102 @@
+[
+  {
+    "nl": "Show logged-in users info",
+    "bash": "w"
+  },
+  {
+    "nl": "Print the contents of \"xx.sh\"",
+    "bash": "cat xx.sh"
+  },
+  {
+    "nl": "Change owner to \"root\" and group to \"www-data\" of \"/foobar/test_file\"",
+    "bash": "chown root:www-data /foobar/test_file"
+  },
+  {
+    "nl": "delete all the text files in the current folder",
+    "bash": "find . -type f -name \"*.txt\" -delete"
+  },
+  {
+    "nl": "find all the files in the /path folder and delete them",
+    "bash": "find /path -type f -delete"
+  },
+  {
+    "nl": "Print the exit status of the last executed command",
+    "bash": "echo $?"
+  },
+  {
+    "nl": "Display a tree of processes",
+    "bash": "pstree"
+  },
+  {
+    "nl": "Display information about all CPUs",
+    "bash": "lscpu"
+  },
+  {
+    "nl": "Make an HTTPS GET request to example.com and dump the contents in `stdout`",
+    "bash": "curl https://example.com"
+  },
+  {
+    "nl": "Display system memory",
+    "bash": "free"
+  },
+  {
+    "nl": "List all files, including hidden files",
+    "bash": "ls -a"
+  },
+  {
+    "nl": "Print a sequence from 1 to 10",
+    "bash": "seq 10"
+  },
+  {
+    "nl": "Get the properties of all the user limits",
+    "bash": "ulimit -a"
+  },
+  {
+    "nl": "List the name and status of all services",
+    "bash": "service --status-all"
+  },
+  {
+    "nl": "Display a calendar for the current month",
+    "bash": "cal"
+  },
+  {
+    "nl": "Show the environment",
+    "bash": "env"
+  },
+  {
+    "nl": "create directory TestProject",
+    "bash": "mkdir TestProject"
+  },
+  {
+    "nl": "Query the default name server for the IP address of example.com",
+    "bash": "nslookup example.com"
+  },
+  {
+    "nl": "Print Hello World",
+    "bash": "echo \"Hello World\""
+  },
+  {
+    "nl": "List all bound commands and their hotkeys",
+    "bash": "bind -p"
+  },
+  {
+    "nl": "Display the openssl version",
+    "bash": "openssl version"
+  },
+  {
+    "nl": "Print current time, uptime, number of logged-in users",
+    "bash": "uptime"
+  },
+  {
+    "nl": "Print file system disk space usage",
+    "bash": "df"
+  },
+  {
+    "nl": "List all configuration values available",
+    "bash": "getconf -a"
+  },
+  {
+    "nl": "Delete empty folder 'nonsense_dir'.",
+    "bash": "rmdir nonsense_dir"
+  }
+]
